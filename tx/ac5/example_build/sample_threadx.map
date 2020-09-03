@@ -1,0 +1,704 @@
+Component: ARM Compiler 5.06 update 6 (build 750) Tool: armlink [4d35ed]
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    Init                                     0x00000000   Section       64  tx_initialize_low_level.o(Init)
+    ../../../../common/src/tx_block_allocate.c 0x00000000   Number         0  tx_block_allocate.o ABSOLUTE
+    ../../../../common/src/tx_block_pool_cleanup.c 0x00000000   Number         0  tx_block_pool_cleanup.o ABSOLUTE
+    ../../../../common/src/tx_block_pool_create.c 0x00000000   Number         0  tx_block_pool_create.o ABSOLUTE
+    ../../../../common/src/tx_block_release.c 0x00000000   Number         0  tx_block_release.o ABSOLUTE
+    ../../../../common/src/tx_byte_allocate.c 0x00000000   Number         0  tx_byte_allocate.o ABSOLUTE
+    ../../../../common/src/tx_byte_pool_cleanup.c 0x00000000   Number         0  tx_byte_pool_cleanup.o ABSOLUTE
+    ../../../../common/src/tx_byte_pool_create.c 0x00000000   Number         0  tx_byte_pool_create.o ABSOLUTE
+    ../../../../common/src/tx_byte_pool_search.c 0x00000000   Number         0  tx_byte_pool_search.o ABSOLUTE
+    ../../../../common/src/tx_event_flags_cleanup.c 0x00000000   Number         0  tx_event_flags_cleanup.o ABSOLUTE
+    ../../../../common/src/tx_event_flags_create.c 0x00000000   Number         0  tx_event_flags_create.o ABSOLUTE
+    ../../../../common/src/tx_event_flags_get.c 0x00000000   Number         0  tx_event_flags_get.o ABSOLUTE
+    ../../../../common/src/tx_event_flags_set.c 0x00000000   Number         0  tx_event_flags_set.o ABSOLUTE
+    ../../../../common/src/tx_initialize_high_level.c 0x00000000   Number         0  tx_initialize_high_level.o ABSOLUTE
+    ../../../../common/src/tx_initialize_kernel_enter.c 0x00000000   Number         0  tx_initialize_kernel_enter.o ABSOLUTE
+    ../../../../common/src/tx_mutex_cleanup.c 0x00000000   Number         0  tx_mutex_cleanup.o ABSOLUTE
+    ../../../../common/src/tx_mutex_create.c 0x00000000   Number         0  tx_mutex_create.o ABSOLUTE
+    ../../../../common/src/tx_mutex_get.c    0x00000000   Number         0  tx_mutex_get.o ABSOLUTE
+    ../../../../common/src/tx_mutex_prioritize.c 0x00000000   Number         0  tx_mutex_prioritize.o ABSOLUTE
+    ../../../../common/src/tx_mutex_priority_change.c 0x00000000   Number         0  tx_mutex_priority_change.o ABSOLUTE
+    ../../../../common/src/tx_mutex_put.c    0x00000000   Number         0  tx_mutex_put.o ABSOLUTE
+    ../../../../common/src/tx_queue_cleanup.c 0x00000000   Number         0  tx_queue_cleanup.o ABSOLUTE
+    ../../../../common/src/tx_queue_create.c 0x00000000   Number         0  tx_queue_create.o ABSOLUTE
+    ../../../../common/src/tx_queue_receive.c 0x00000000   Number         0  tx_queue_receive.o ABSOLUTE
+    ../../../../common/src/tx_queue_send.c   0x00000000   Number         0  tx_queue_send.o ABSOLUTE
+    ../../../../common/src/tx_semaphore_cleanup.c 0x00000000   Number         0  tx_semaphore_cleanup.o ABSOLUTE
+    ../../../../common/src/tx_semaphore_create.c 0x00000000   Number         0  tx_semaphore_create.o ABSOLUTE
+    ../../../../common/src/tx_semaphore_get.c 0x00000000   Number         0  tx_semaphore_get.o ABSOLUTE
+    ../../../../common/src/tx_semaphore_put.c 0x00000000   Number         0  tx_semaphore_put.o ABSOLUTE
+    ../../../../common/src/tx_thread_create.c 0x00000000   Number         0  tx_thread_create.o ABSOLUTE
+    ../../../../common/src/tx_thread_initialize.c 0x00000000   Number         0  tx_thread_initialize.o ABSOLUTE
+    ../../../../common/src/tx_thread_shell_entry.c 0x00000000   Number         0  tx_thread_shell_entry.o ABSOLUTE
+    ../../../../common/src/tx_thread_sleep.c 0x00000000   Number         0  tx_thread_sleep.o ABSOLUTE
+    ../../../../common/src/tx_thread_system_preempt_check.c 0x00000000   Number         0  tx_thread_system_preempt_check.o ABSOLUTE
+    ../../../../common/src/tx_thread_system_resume.c 0x00000000   Number         0  tx_thread_system_resume.o ABSOLUTE
+    ../../../../common/src/tx_thread_system_suspend.c 0x00000000   Number         0  tx_thread_system_suspend.o ABSOLUTE
+    ../../../../common/src/tx_thread_time_slice.c 0x00000000   Number         0  tx_thread_time_slice.o ABSOLUTE
+    ../../../../common/src/tx_thread_timeout.c 0x00000000   Number         0  tx_thread_timeout.o ABSOLUTE
+    ../../../../common/src/tx_timer_expiration_process.c 0x00000000   Number         0  tx_timer_expiration_process.o ABSOLUTE
+    ../../../../common/src/tx_timer_initialize.c 0x00000000   Number         0  tx_timer_initialize.o ABSOLUTE
+    ../../../../common/src/tx_timer_system_activate.c 0x00000000   Number         0  tx_timer_system_activate.o ABSOLUTE
+    ../../../../common/src/tx_timer_system_deactivate.c 0x00000000   Number         0  tx_timer_system_deactivate.o ABSOLUTE
+    ../../../../common/src/tx_timer_thread_entry.c 0x00000000   Number         0  tx_timer_thread_entry.o ABSOLUTE
+    ../../../../common/src/txe_block_allocate.c 0x00000000   Number         0  txe_block_allocate.o ABSOLUTE
+    ../../../../common/src/txe_block_pool_create.c 0x00000000   Number         0  txe_block_pool_create.o ABSOLUTE
+    ../../../../common/src/txe_block_release.c 0x00000000   Number         0  txe_block_release.o ABSOLUTE
+    ../../../../common/src/txe_byte_allocate.c 0x00000000   Number         0  txe_byte_allocate.o ABSOLUTE
+    ../../../../common/src/txe_byte_pool_create.c 0x00000000   Number         0  txe_byte_pool_create.o ABSOLUTE
+    ../../../../common/src/txe_event_flags_create.c 0x00000000   Number         0  txe_event_flags_create.o ABSOLUTE
+    ../../../../common/src/txe_event_flags_get.c 0x00000000   Number         0  txe_event_flags_get.o ABSOLUTE
+    ../../../../common/src/txe_event_flags_set.c 0x00000000   Number         0  txe_event_flags_set.o ABSOLUTE
+    ../../../../common/src/txe_mutex_create.c 0x00000000   Number         0  txe_mutex_create.o ABSOLUTE
+    ../../../../common/src/txe_mutex_get.c   0x00000000   Number         0  txe_mutex_get.o ABSOLUTE
+    ../../../../common/src/txe_mutex_put.c   0x00000000   Number         0  txe_mutex_put.o ABSOLUTE
+    ../../../../common/src/txe_queue_create.c 0x00000000   Number         0  txe_queue_create.o ABSOLUTE
+    ../../../../common/src/txe_queue_receive.c 0x00000000   Number         0  txe_queue_receive.o ABSOLUTE
+    ../../../../common/src/txe_queue_send.c  0x00000000   Number         0  txe_queue_send.o ABSOLUTE
+    ../../../../common/src/txe_semaphore_create.c 0x00000000   Number         0  txe_semaphore_create.o ABSOLUTE
+    ../../../../common/src/txe_semaphore_get.c 0x00000000   Number         0  txe_semaphore_get.o ABSOLUTE
+    ../../../../common/src/txe_semaphore_put.c 0x00000000   Number         0  txe_semaphore_put.o ABSOLUTE
+    ../../../../common/src/txe_thread_create.c 0x00000000   Number         0  txe_thread_create.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit3.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardshut.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit1.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit2.o ABSOLUTE
+    ../clib/angel/handlers.s                 0x00000000   Number         0  __scatter_zi.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry2.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  rtexit2.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  rtexit.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry4.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_div0.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  aeabi_idiv0.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  aeabi_idiv0_sigfpe.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_raise.o ABSOLUTE
+    ../clib/angel/scatter.s                  0x00000000   Number         0  __scatter.o ABSOLUTE
+    ../clib/angel/startup.s                  0x00000000   Number         0  __main.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  sys_stackheap_outer.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  indicate_semi.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  use_no_semi.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  libspace.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_wrch.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_command.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_exit.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  argv_veneer.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  argv_veneer.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  _get_argv_nomalloc.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  no_argv.o ABSOLUTE
+    ../clib/division.s                       0x00000000   Number         0  aeabi_sdiv.o ABSOLUTE
+    ../clib/division.s                       0x00000000   Number         0  aeabi_sdiv_div0.o ABSOLUTE
+    ../clib/divrt.s                          0x00000000   Number         0  divrt_9e.o ABSOLUTE
+    ../clib/divrt.s                          0x00000000   Number         0  divrt_9e_div0.o ABSOLUTE
+    ../clib/heapalloc.c                      0x00000000   Number         0  hrguard.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libshutdown2.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libshutdown.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libinit2.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libinit.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  rt_memclr_w.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  rt_memclr.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  aeabi_memset.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_formal.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_stak_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_general.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_segv_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_other.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_pvfn_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_outer.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_formal.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_exit.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtred_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_cppl_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_abrt_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_outer.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  __raise.o ABSOLUTE
+    ../clib/signal.s                         0x00000000   Number         0  defsig.o ABSOLUTE
+    ../clib/stdlib.c                         0x00000000   Number         0  exit.o ABSOLUTE
+    ../fplib/fpinit.s                        0x00000000   Number         0  fpinit.o ABSOLUTE
+    ../src/tx_thread_context_restore.s       0x00000000   Number         0  tx_thread_context_restore.o ABSOLUTE
+    ../src/tx_thread_context_save.s          0x00000000   Number         0  tx_thread_context_save.o ABSOLUTE
+    ../src/tx_thread_schedule.s              0x00000000   Number         0  tx_thread_schedule.o ABSOLUTE
+    ../src/tx_thread_stack_build.s           0x00000000   Number         0  tx_thread_stack_build.o ABSOLUTE
+    ../src/tx_thread_system_return.s         0x00000000   Number         0  tx_thread_system_return.o ABSOLUTE
+    ../src/tx_timer_interrupt.s              0x00000000   Number         0  tx_timer_interrupt.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    sample_threadx.c                         0x00000000   Number         0  sample_threadx.o ABSOLUTE
+    tx_initialize_low_level.s                0x00000000   Number         0  tx_initialize_low_level.o ABSOLUTE
+    !!!main                                  0x00000040   Section        8  __main.o(!!!main)
+    !!!scatter                               0x00000048   Section       60  __scatter.o(!!!scatter)
+    !!handler_zi                             0x00000084   Section       44  __scatter_zi.o(!!handler_zi)
+    .ARM.Collect$$libinit$$00000000          0x000000b0   Section        4  libinit.o(.ARM.Collect$$libinit$$00000000)
+    .ARM.Collect$$libinit$$00000002          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000002)
+    .ARM.Collect$$libinit$$00000004          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000004)
+    .ARM.Collect$$libinit$$0000000A          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000000A)
+    .ARM.Collect$$libinit$$0000000C          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000000C)
+    .ARM.Collect$$libinit$$0000000E          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000000E)
+    .ARM.Collect$$libinit$$00000011          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000011)
+    .ARM.Collect$$libinit$$00000013          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000013)
+    .ARM.Collect$$libinit$$00000015          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000015)
+    .ARM.Collect$$libinit$$00000017          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000017)
+    .ARM.Collect$$libinit$$00000019          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000019)
+    .ARM.Collect$$libinit$$0000001B          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000001B)
+    .ARM.Collect$$libinit$$0000001D          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000001D)
+    .ARM.Collect$$libinit$$0000001F          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000001F)
+    .ARM.Collect$$libinit$$00000021          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000021)
+    .ARM.Collect$$libinit$$00000023          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000023)
+    .ARM.Collect$$libinit$$00000025          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000025)
+    .ARM.Collect$$libinit$$0000002C          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000002C)
+    .ARM.Collect$$libinit$$0000002E          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000002E)
+    .ARM.Collect$$libinit$$00000030          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000030)
+    .ARM.Collect$$libinit$$00000032          0x000000b4   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000032)
+    .ARM.Collect$$libinit$$00000033          0x000000b4   Section        4  libinit2.o(.ARM.Collect$$libinit$$00000033)
+    .ARM.Collect$$libshutdown$$00000000      0x000000b8   Section        4  libshutdown.o(.ARM.Collect$$libshutdown$$00000000)
+    .ARM.Collect$$libshutdown$$00000002      0x000000bc   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000002)
+    .ARM.Collect$$libshutdown$$00000004      0x000000bc   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000004)
+    .ARM.Collect$$libshutdown$$00000007      0x000000bc   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000007)
+    .ARM.Collect$$libshutdown$$0000000A      0x000000bc   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A)
+    .ARM.Collect$$libshutdown$$0000000C      0x000000bc   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C)
+    .ARM.Collect$$libshutdown$$0000000F      0x000000bc   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F)
+    .ARM.Collect$$libshutdown$$00000010      0x000000bc   Section        4  libshutdown2.o(.ARM.Collect$$libshutdown$$00000010)
+    .ARM.Collect$$rtentry$$00000000          0x000000c0   Section        0  __rtentry.o(.ARM.Collect$$rtentry$$00000000)
+    .ARM.Collect$$rtentry$$00000002          0x000000c0   Section        0  __rtentry2.o(.ARM.Collect$$rtentry$$00000002)
+    .ARM.Collect$$rtentry$$00000004          0x000000c0   Section        8  __rtentry4.o(.ARM.Collect$$rtentry$$00000004)
+    .ARM.Collect$$rtentry$$00000009          0x000000c8   Section        0  __rtentry2.o(.ARM.Collect$$rtentry$$00000009)
+    .ARM.Collect$$rtentry$$0000000A          0x000000c8   Section        4  __rtentry2.o(.ARM.Collect$$rtentry$$0000000A)
+    .ARM.Collect$$rtentry$$0000000C          0x000000cc   Section        0  __rtentry2.o(.ARM.Collect$$rtentry$$0000000C)
+    .ARM.Collect$$rtentry$$0000000D          0x000000cc   Section        8  __rtentry2.o(.ARM.Collect$$rtentry$$0000000D)
+    .ARM.Collect$$rtexit$$00000000           0x000000d4   Section        4  rtexit.o(.ARM.Collect$$rtexit$$00000000)
+    .ARM.Collect$$rtexit$$00000002           0x000000d8   Section        0  rtexit2.o(.ARM.Collect$$rtexit$$00000002)
+    .ARM.Collect$$rtexit$$00000003           0x000000d8   Section        4  rtexit2.o(.ARM.Collect$$rtexit$$00000003)
+    .ARM.Collect$$rtexit$$00000004           0x000000dc   Section        8  rtexit2.o(.ARM.Collect$$rtexit$$00000004)
+    .text                                    0x000000e4   Section      320  tx_initialize_low_level.o(.text)
+    .text                                    0x00000224   Section        0  sample_threadx.o(.text)
+    .text                                    0x000007f0   Section      112  tx_thread_context_save.o(.text)
+    .text                                    0x00000860   Section      280  tx_thread_context_restore.o(.text)
+    .text                                    0x00000978   Section      240  tx_timer_interrupt.o(.text)
+    .text                                    0x00000a68   Section        0  tx_initialize_high_level.o(.text)
+    .text                                    0x00000ab4   Section        0  tx_initialize_kernel_enter.o(.text)
+    .text                                    0x00000b08   Section        0  tx_thread_initialize.o(.text)
+    .text                                    0x00000b60   Section        0  tx_thread_sleep.o(.text)
+    .text                                    0x00000c44   Section        0  txe_block_allocate.o(.text)
+    .text                                    0x00000cb8   Section        0  txe_block_pool_create.o(.text)
+    .text                                    0x00000e1c   Section        0  txe_block_release.o(.text)
+    .text                                    0x00000e50   Section        0  txe_byte_allocate.o(.text)
+    .text                                    0x00000f08   Section        0  txe_byte_pool_create.o(.text)
+    .text                                    0x00001058   Section        0  txe_event_flags_create.o(.text)
+    .text                                    0x0000117c   Section        0  txe_event_flags_get.o(.text)
+    .text                                    0x00001208   Section        0  txe_event_flags_set.o(.text)
+    .text                                    0x00001240   Section        0  txe_mutex_create.o(.text)
+    .text                                    0x00001380   Section        0  txe_mutex_get.o(.text)
+    .text                                    0x00001408   Section        0  txe_mutex_put.o(.text)
+    .text                                    0x00001458   Section        0  txe_queue_create.o(.text)
+    .text                                    0x000015c0   Section        0  txe_queue_receive.o(.text)
+    .text                                    0x00001634   Section        0  txe_queue_send.o(.text)
+    .text                                    0x000016a8   Section        0  txe_semaphore_create.o(.text)
+    .text                                    0x000017dc   Section        0  txe_semaphore_get.o(.text)
+    .text                                    0x00001844   Section        0  txe_semaphore_put.o(.text)
+    .text                                    0x0000186c   Section        0  txe_thread_create.o(.text)
+    .text                                    0x00001a50   Section      108  tx_thread_schedule.o(.text)
+    .text                                    0x00001abc   Section        0  tx_block_allocate.o(.text)
+    .text                                    0x00001be4   Section        0  tx_block_pool_create.o(.text)
+    .text                                    0x00001cf8   Section        0  tx_block_release.o(.text)
+    .text                                    0x00001dbc   Section        0  tx_byte_allocate.o(.text)
+    .text                                    0x00001f4c   Section        0  tx_byte_pool_create.o(.text)
+    .text                                    0x00002030   Section        0  tx_event_flags_create.o(.text)
+    .text                                    0x000020c4   Section        0  tx_event_flags_get.o(.text)
+    .text                                    0x00002244   Section        0  tx_event_flags_set.o(.text)
+    .text                                    0x00002580   Section        0  tx_mutex_create.o(.text)
+    .text                                    0x00002630   Section        0  tx_mutex_get.o(.text)
+    .text                                    0x000027fc   Section        0  tx_mutex_put.o(.text)
+    .text                                    0x00002b74   Section        0  tx_queue_create.o(.text)
+    .text                                    0x00002c44   Section        0  tx_queue_receive.o(.text)
+    .text                                    0x00002f34   Section        0  tx_queue_send.o(.text)
+    .text                                    0x00003170   Section        0  tx_semaphore_create.o(.text)
+    .text                                    0x00003208   Section        0  tx_semaphore_get.o(.text)
+    .text                                    0x00003324   Section        0  tx_semaphore_put.o(.text)
+    .text                                    0x000033ec   Section        0  tx_thread_create.o(.text)
+    .text                                    0x000035c8   Section        0  tx_thread_system_preempt_check.o(.text)
+    .text                                    0x0000360c   Section        0  tx_thread_system_suspend.o(.text)
+    .text                                    0x0000381c   Section        0  tx_thread_time_slice.o(.text)
+    .text                                    0x000038c8   Section        0  tx_timer_expiration_process.o(.text)
+    .text                                    0x00003908   Section        0  tx_timer_initialize.o(.text)
+    .text                                    0x000039d8   Section      120  tx_thread_stack_build.o(.text)
+    .text                                    0x00003a50   Section       76  tx_thread_system_return.o(.text)
+    .text                                    0x00003a9c   Section        0  tx_block_pool_cleanup.o(.text)
+    .text                                    0x00003b8c   Section        0  tx_byte_pool_cleanup.o(.text)
+    .text                                    0x00003c7c   Section        0  tx_byte_pool_search.o(.text)
+    .text                                    0x00003e14   Section        0  tx_event_flags_cleanup.o(.text)
+    .text                                    0x00003f14   Section        0  tx_mutex_cleanup.o(.text)
+    .text                                    0x00004090   Section        0  tx_mutex_prioritize.o(.text)
+    .text                                    0x000041c8   Section        0  tx_mutex_priority_change.o(.text)
+    .text                                    0x00004340   Section        0  tx_queue_cleanup.o(.text)
+    .text                                    0x0000443c   Section        0  tx_semaphore_cleanup.o(.text)
+    .text                                    0x0000452c   Section        0  tx_thread_shell_entry.o(.text)
+    .text                                    0x00004600   Section        0  tx_thread_system_resume.o(.text)
+    .text                                    0x000047a8   Section        0  tx_thread_timeout.o(.text)
+    .text                                    0x00004810   Section        0  tx_timer_system_activate.o(.text)
+    .text                                    0x000048a4   Section        0  tx_timer_thread_entry.o(.text)
+    .text                                    0x00004a84   Section        0  tx_timer_system_deactivate.o(.text)
+    .text                                    0x00004ad4   Section       16  aeabi_memset.o(.text)
+    .text                                    0x00004ae4   Section       84  rt_memclr_w.o(.text)
+    .text                                    0x00004b38   Section      380  aeabi_sdiv.o(.text)
+    __arm_div8                               0x00004b64   ARM Code       0  aeabi_sdiv.o(.text)
+    __arm_div5                               0x00004b88   ARM Code       0  aeabi_sdiv.o(.text)
+    __arm_div2                               0x00004bac   ARM Code       0  aeabi_sdiv.o(.text)
+    __arm_div_large                          0x00004be8   ARM Code       0  aeabi_sdiv.o(.text)
+    .text                                    0x00004cb4   Section       64  rt_memclr.o(.text)
+    .text                                    0x00004cf4   Section       96  sys_stackheap_outer.o(.text)
+    .text                                    0x00004d54   Section        0  exit.o(.text)
+    .text                                    0x00004d6c   Section       12  libspace.o(.text)
+    .text                                    0x00004d78   Section        0  sys_exit.o(.text)
+    .text                                    0x00004d8c   Section        4  use_no_semi.o(.text)
+    .text                                    0x00004d90   Section        0  indicate_semi.o(.text)
+    .text_udiv                               0x00004d90   Section       36  aeabi_sdiv.o(.text_udiv)
+    .data                                    0x00004dc4   Section       40  sample_threadx.o(.data)
+    .data                                    0x00004dec   Section       48  tx_initialize_high_level.o(.data)
+    .data                                    0x00004e1c   Section        4  tx_initialize_high_level.o(.data)
+    .data                                    0x00004e20   Section       94  tx_thread_initialize.o(.data)
+    .data                                    0x00004e80   Section        4  tx_thread_initialize.o(.data)
+    .data                                    0x00004e84   Section        4  tx_thread_initialize.o(.data)
+    .data                                    0x00004e88   Section       40  tx_thread_initialize.o(.data)
+    .data                                    0x00004eb0   Section       52  tx_timer_initialize.o(.data)
+    .bss                                     0x00004ee4   Section     1724  sample_threadx.o(.bss)
+    .bss                                     0x000055a0   Section      128  tx_thread_initialize.o(.bss)
+    .bss                                     0x00005620   Section     1332  tx_timer_initialize.o(.bss)
+    .bss                                     0x00005b54   Section       96  libspace.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$ARM_ISAv5$E$P$J$S$PE$A:L22$X:L11$S22$IEEE1$IW$~IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$EBA8$UX$STANDARDLIB$REQ8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  sample_threadx.o ABSOLUTE
+    __vectors                                0x00000000   ARM Code       0  tx_initialize_low_level.o(Init)
+    __ARM_exceptions_init                     - Undefined Weak Reference
+    __alloca_initialize                       - Undefined Weak Reference
+    __arm_preinit_                            - Undefined Weak Reference
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __rt_locale                               - Undefined Weak Reference
+    __sigvec_lookup                           - Undefined Weak Reference
+    _atexit_init                              - Undefined Weak Reference
+    _call_atexit_fns                          - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _fp_trap_init                             - Undefined Weak Reference
+    _fp_trap_shutdown                         - Undefined Weak Reference
+    _get_lc_collate                           - Undefined Weak Reference
+    _get_lc_ctype                             - Undefined Weak Reference
+    _get_lc_monetary                          - Undefined Weak Reference
+    _get_lc_numeric                           - Undefined Weak Reference
+    _get_lc_time                              - Undefined Weak Reference
+    _getenv_init                              - Undefined Weak Reference
+    _handle_redirection                       - Undefined Weak Reference
+    _init_alloc                               - Undefined Weak Reference
+    _init_user_alloc                          - Undefined Weak Reference
+    _initio                                   - Undefined Weak Reference
+    _rand_init                                - Undefined Weak Reference
+    _signal_finish                            - Undefined Weak Reference
+    _signal_init                              - Undefined Weak Reference
+    _terminate_alloc                          - Undefined Weak Reference
+    _terminate_user_alloc                     - Undefined Weak Reference
+    _terminateio                              - Undefined Weak Reference
+    __main                                   0x00000040   ARM Code       8  __main.o(!!!main)
+    __scatterload                            0x00000048   ARM Code       0  __scatter.o(!!!scatter)
+    __scatterload_rt2                        0x00000048   ARM Code      52  __scatter.o(!!!scatter)
+    __scatterload_null                       0x0000005c   ARM Code       0  __scatter.o(!!!scatter)
+    __scatterload_zeroinit                   0x00000084   ARM Code      44  __scatter_zi.o(!!handler_zi)
+    __rt_lib_init                            0x000000b0   ARM Code       0  libinit.o(.ARM.Collect$$libinit$$00000000)
+    __rt_lib_init_alloca_1                   0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$0000002E)
+    __rt_lib_init_argv_1                     0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$0000002C)
+    __rt_lib_init_atexit_1                   0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$0000001B)
+    __rt_lib_init_clock_1                    0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000021)
+    __rt_lib_init_cpp_1                      0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000032)
+    __rt_lib_init_exceptions_1               0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000030)
+    __rt_lib_init_fp_1                       0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000002)
+    __rt_lib_init_fp_trap_1                  0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$0000001F)
+    __rt_lib_init_getenv_1                   0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000023)
+    __rt_lib_init_heap_1                     0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$0000000A)
+    __rt_lib_init_lc_collate_1               0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000011)
+    __rt_lib_init_lc_ctype_1                 0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000013)
+    __rt_lib_init_lc_monetary_1              0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000015)
+    __rt_lib_init_lc_numeric_1               0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000017)
+    __rt_lib_init_lc_time_1                  0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000019)
+    __rt_lib_init_preinit_1                  0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000004)
+    __rt_lib_init_rand_1                     0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$0000000E)
+    __rt_lib_init_return                     0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000033)
+    __rt_lib_init_signal_1                   0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$0000001D)
+    __rt_lib_init_stdio_1                    0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$00000025)
+    __rt_lib_init_user_alloc_1               0x000000b4   ARM Code       0  libinit2.o(.ARM.Collect$$libinit$$0000000C)
+    __rt_lib_shutdown                        0x000000b8   ARM Code       0  libshutdown.o(.ARM.Collect$$libshutdown$$00000000)
+    __rt_lib_shutdown_cpp_1                  0x000000bc   ARM Code       0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000002)
+    __rt_lib_shutdown_fp_trap_1              0x000000bc   ARM Code       0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000007)
+    __rt_lib_shutdown_heap_1                 0x000000bc   ARM Code       0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F)
+    __rt_lib_shutdown_return                 0x000000bc   ARM Code       0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000010)
+    __rt_lib_shutdown_signal_1               0x000000bc   ARM Code       0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A)
+    __rt_lib_shutdown_stdio_1                0x000000bc   ARM Code       0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000004)
+    __rt_lib_shutdown_user_alloc_1           0x000000bc   ARM Code       0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C)
+    __rt_entry                               0x000000c0   ARM Code       0  __rtentry.o(.ARM.Collect$$rtentry$$00000000)
+    __rt_entry_presh_1                       0x000000c0   ARM Code       0  __rtentry2.o(.ARM.Collect$$rtentry$$00000002)
+    __rt_entry_sh                            0x000000c0   ARM Code       0  __rtentry4.o(.ARM.Collect$$rtentry$$00000004)
+    __rt_entry_li                            0x000000c8   ARM Code       0  __rtentry2.o(.ARM.Collect$$rtentry$$0000000A)
+    __rt_entry_postsh_1                      0x000000c8   ARM Code       0  __rtentry2.o(.ARM.Collect$$rtentry$$00000009)
+    __rt_entry_main                          0x000000cc   ARM Code       0  __rtentry2.o(.ARM.Collect$$rtentry$$0000000D)
+    __rt_entry_postli_1                      0x000000cc   ARM Code       0  __rtentry2.o(.ARM.Collect$$rtentry$$0000000C)
+    __rt_exit                                0x000000d4   ARM Code       0  rtexit.o(.ARM.Collect$$rtexit$$00000000)
+    __rt_exit_ls                             0x000000d8   ARM Code       0  rtexit2.o(.ARM.Collect$$rtexit$$00000003)
+    __rt_exit_prels_1                        0x000000d8   ARM Code       0  rtexit2.o(.ARM.Collect$$rtexit$$00000002)
+    __rt_exit_exit                           0x000000dc   ARM Code       0  rtexit2.o(.ARM.Collect$$rtexit$$00000004)
+    _tx_initialize_low_level                 0x000000e4   ARM Code       0  tx_initialize_low_level.o(.text)
+    __user_initial_stackheap                 0x00000178   ARM Code       0  tx_initialize_low_level.o(.text)
+    __tx_undefined                           0x000001a8   ARM Code       0  tx_initialize_low_level.o(.text)
+    __tx_swi_interrupt                       0x000001ac   ARM Code       0  tx_initialize_low_level.o(.text)
+    __tx_prefetch_handler                    0x000001b0   ARM Code       0  tx_initialize_low_level.o(.text)
+    __tx_abort_handler                       0x000001b4   ARM Code       0  tx_initialize_low_level.o(.text)
+    __tx_reserved_handler                    0x000001b8   ARM Code       0  tx_initialize_low_level.o(.text)
+    __tx_irq_handler                         0x000001bc   ARM Code       0  tx_initialize_low_level.o(.text)
+    __tx_irq_processing_return               0x000001c0   ARM Code       0  tx_initialize_low_level.o(.text)
+    __tx_example_vectored_irq_handler        0x000001ec   ARM Code       0  tx_initialize_low_level.o(.text)
+    __tx_fiq_handler                         0x000001ec   ARM Code       0  tx_initialize_low_level.o(.text)
+    main                                     0x00000224   ARM Code      16  sample_threadx.o(.text)
+    thread_6_and_7_entry                     0x00000234   ARM Code     120  sample_threadx.o(.text)
+    thread_5_entry                           0x000002ac   ARM Code      68  sample_threadx.o(.text)
+    thread_3_and_4_entry                     0x000002f0   ARM Code      84  sample_threadx.o(.text)
+    thread_2_entry                           0x00000344   ARM Code      68  sample_threadx.o(.text)
+    thread_1_entry                           0x00000388   ARM Code      60  sample_threadx.o(.text)
+    thread_0_entry                           0x000003c4   ARM Code      56  sample_threadx.o(.text)
+    tx_application_define                    0x000003fc   ARM Code    1012  sample_threadx.o(.text)
+    _tx_thread_context_save                  0x000007f0   ARM Code       0  tx_thread_context_save.o(.text)
+    _tx_thread_context_restore               0x00000860   ARM Code       0  tx_thread_context_restore.o(.text)
+    _tx_timer_interrupt                      0x00000978   ARM Code       0  tx_timer_interrupt.o(.text)
+    _tx_initialize_high_level                0x00000a68   ARM Code      72  tx_initialize_high_level.o(.text)
+    _tx_initialize_kernel_enter              0x00000ab4   ARM Code      72  tx_initialize_kernel_enter.o(.text)
+    _tx_thread_initialize                    0x00000b08   ARM Code      80  tx_thread_initialize.o(.text)
+    _tx_thread_sleep                         0x00000b60   ARM Code     212  tx_thread_sleep.o(.text)
+    _txe_block_allocate                      0x00000c44   ARM Code     100  txe_block_allocate.o(.text)
+    _txe_block_pool_create                   0x00000cb8   ARM Code     328  txe_block_pool_create.o(.text)
+    _txe_block_release                       0x00000e1c   ARM Code      48  txe_block_release.o(.text)
+    _txe_byte_allocate                       0x00000e50   ARM Code     164  txe_byte_allocate.o(.text)
+    _txe_byte_pool_create                    0x00000f08   ARM Code     308  txe_byte_pool_create.o(.text)
+    _txe_event_flags_create                  0x00001058   ARM Code     264  txe_event_flags_create.o(.text)
+    _txe_event_flags_get                     0x0000117c   ARM Code     124  txe_event_flags_get.o(.text)
+    _txe_event_flags_set                     0x00001208   ARM Code      52  txe_event_flags_set.o(.text)
+    _txe_mutex_create                        0x00001240   ARM Code     292  txe_mutex_create.o(.text)
+    _txe_mutex_get                           0x00001380   ARM Code     116  txe_mutex_get.o(.text)
+    _txe_mutex_put                           0x00001408   ARM Code      68  txe_mutex_put.o(.text)
+    _txe_queue_create                        0x00001458   ARM Code     332  txe_queue_create.o(.text)
+    _txe_queue_receive                       0x000015c0   ARM Code     100  txe_queue_receive.o(.text)
+    _txe_queue_send                          0x00001634   ARM Code     100  txe_queue_send.o(.text)
+    _txe_semaphore_create                    0x000016a8   ARM Code     280  txe_semaphore_create.o(.text)
+    _txe_semaphore_get                       0x000017dc   ARM Code      88  txe_semaphore_get.o(.text)
+    _txe_semaphore_put                       0x00001844   ARM Code      36  txe_semaphore_put.o(.text)
+    _txe_thread_create                       0x0000186c   ARM Code     456  txe_thread_create.o(.text)
+    _tx_thread_schedule                      0x00001a50   ARM Code       0  tx_thread_schedule.o(.text)
+    _tx_block_allocate                       0x00001abc   ARM Code     284  tx_block_allocate.o(.text)
+    _tx_block_pool_create                    0x00001be4   ARM Code     264  tx_block_pool_create.o(.text)
+    _tx_block_release                        0x00001cf8   ARM Code     192  tx_block_release.o(.text)
+    _tx_byte_allocate                        0x00001dbc   ARM Code     388  tx_byte_allocate.o(.text)
+    _tx_byte_pool_create                     0x00001f4c   ARM Code     212  tx_byte_pool_create.o(.text)
+    _tx_event_flags_create                   0x00002030   ARM Code     136  tx_event_flags_create.o(.text)
+    _tx_event_flags_get                      0x000020c4   ARM Code     372  tx_event_flags_get.o(.text)
+    _tx_event_flags_set                      0x00002244   ARM Code     824  tx_event_flags_set.o(.text)
+    _tx_mutex_create                         0x00002580   ARM Code     156  tx_mutex_create.o(.text)
+    _tx_mutex_get                            0x00002630   ARM Code     448  tx_mutex_get.o(.text)
+    _tx_mutex_put                            0x000027fc   ARM Code     880  tx_mutex_put.o(.text)
+    _tx_queue_create                         0x00002b74   ARM Code     196  tx_queue_create.o(.text)
+    _tx_queue_receive                        0x00002c44   ARM Code     740  tx_queue_receive.o(.text)
+    _tx_queue_send                           0x00002f34   ARM Code     560  tx_queue_send.o(.text)
+    _tx_semaphore_create                     0x00003170   ARM Code     140  tx_semaphore_create.o(.text)
+    _tx_semaphore_get                        0x00003208   ARM Code     272  tx_semaphore_get.o(.text)
+    _tx_semaphore_put                        0x00003324   ARM Code     196  tx_semaphore_put.o(.text)
+    _tx_thread_create                        0x000033ec   ARM Code     440  tx_thread_create.o(.text)
+    _tx_thread_system_preempt_check          0x000035c8   ARM Code      52  tx_thread_system_preempt_check.o(.text)
+    _tx_thread_system_suspend                0x0000360c   ARM Code     492  tx_thread_system_suspend.o(.text)
+    _tx_thread_time_slice                    0x0000381c   ARM Code     148  tx_thread_time_slice.o(.text)
+    _tx_timer_expiration_process             0x000038c8   ARM Code      56  tx_timer_expiration_process.o(.text)
+    _tx_timer_initialize                     0x00003908   ARM Code     168  tx_timer_initialize.o(.text)
+    _tx_thread_stack_build                   0x000039d8   ARM Code       0  tx_thread_stack_build.o(.text)
+    _tx_thread_system_return                 0x00003a50   ARM Code       0  tx_thread_system_return.o(.text)
+    _tx_block_pool_cleanup                   0x00003a9c   ARM Code     232  tx_block_pool_cleanup.o(.text)
+    _tx_byte_pool_cleanup                    0x00003b8c   ARM Code     232  tx_byte_pool_cleanup.o(.text)
+    _tx_byte_pool_search                     0x00003c7c   ARM Code     400  tx_byte_pool_search.o(.text)
+    _tx_event_flags_cleanup                  0x00003e14   ARM Code     248  tx_event_flags_cleanup.o(.text)
+    _tx_mutex_cleanup                        0x00003f14   ARM Code     232  tx_mutex_cleanup.o(.text)
+    _tx_mutex_thread_release                 0x00003ffc   ARM Code     140  tx_mutex_cleanup.o(.text)
+    _tx_mutex_prioritize                     0x00004090   ARM Code     308  tx_mutex_prioritize.o(.text)
+    _tx_mutex_priority_change                0x000041c8   ARM Code     360  tx_mutex_priority_change.o(.text)
+    _tx_queue_cleanup                        0x00004340   ARM Code     244  tx_queue_cleanup.o(.text)
+    _tx_semaphore_cleanup                    0x0000443c   ARM Code     232  tx_semaphore_cleanup.o(.text)
+    _tx_thread_shell_entry                   0x0000452c   ARM Code     200  tx_thread_shell_entry.o(.text)
+    _tx_thread_system_resume                 0x00004600   ARM Code     392  tx_thread_system_resume.o(.text)
+    _tx_thread_timeout                       0x000047a8   ARM Code     100  tx_thread_timeout.o(.text)
+    _tx_timer_system_activate                0x00004810   ARM Code     136  tx_timer_system_activate.o(.text)
+    _tx_timer_thread_entry                   0x000048a4   ARM Code     448  tx_timer_thread_entry.o(.text)
+    _tx_timer_system_deactivate              0x00004a84   ARM Code      80  tx_timer_system_deactivate.o(.text)
+    __aeabi_memset                           0x00004ad4   ARM Code      16  aeabi_memset.o(.text)
+    __aeabi_memclr4                          0x00004ae4   ARM Code       0  rt_memclr_w.o(.text)
+    __aeabi_memclr8                          0x00004ae4   ARM Code       0  rt_memclr_w.o(.text)
+    __rt_memclr_w                            0x00004ae4   ARM Code      84  rt_memclr_w.o(.text)
+    _memset_w                                0x00004ae8   ARM Code       0  rt_memclr_w.o(.text)
+    __aeabi_idiv                             0x00004b38   ARM Code       0  aeabi_sdiv.o(.text)
+    __aeabi_idivmod                          0x00004b38   ARM Code     380  aeabi_sdiv.o(.text)
+    __aeabi_memclr                           0x00004cb4   ARM Code       0  rt_memclr.o(.text)
+    __rt_memclr                              0x00004cb4   ARM Code      64  rt_memclr.o(.text)
+    _memset                                  0x00004cb8   ARM Code       0  rt_memclr.o(.text)
+    __user_setup_stackheap                   0x00004cf4   ARM Code      96  sys_stackheap_outer.o(.text)
+    exit                                     0x00004d54   ARM Code      24  exit.o(.text)
+    __user_libspace                          0x00004d6c   ARM Code      12  libspace.o(.text)
+    __user_perproc_libspace                  0x00004d6c   ARM Code       0  libspace.o(.text)
+    __user_perthread_libspace                0x00004d6c   ARM Code       0  libspace.o(.text)
+    _sys_exit                                0x00004d78   ARM Code      16  sys_exit.o(.text)
+    __I$use$semihosting                      0x00004d8c   ARM Code       0  use_no_semi.o(.text)
+    __use_no_semihosting_swi                 0x00004d8c   ARM Code       4  use_no_semi.o(.text)
+    __aeabi_uidiv                            0x00004d90   ARM Code       0  aeabi_sdiv.o(.text_udiv)
+    __aeabi_uidivmod                         0x00004d90   ARM Code      36  aeabi_sdiv.o(.text_udiv)
+    __semihosting_library_function           0x00004d90   ARM Code       0  indicate_semi.o(.text)
+    Region$$Table$$Base                      0x00004db4   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00004dc4   Number         0  anon$$obj.o(Region$$Table)
+    thread_0_counter                         0x00004dc4   Data           4  sample_threadx.o(.data)
+    thread_1_counter                         0x00004dc8   Data           4  sample_threadx.o(.data)
+    thread_1_messages_sent                   0x00004dcc   Data           4  sample_threadx.o(.data)
+    thread_2_counter                         0x00004dd0   Data           4  sample_threadx.o(.data)
+    thread_2_messages_received               0x00004dd4   Data           4  sample_threadx.o(.data)
+    thread_3_counter                         0x00004dd8   Data           4  sample_threadx.o(.data)
+    thread_4_counter                         0x00004ddc   Data           4  sample_threadx.o(.data)
+    thread_5_counter                         0x00004de0   Data           4  sample_threadx.o(.data)
+    thread_6_counter                         0x00004de4   Data           4  sample_threadx.o(.data)
+    thread_7_counter                         0x00004de8   Data           4  sample_threadx.o(.data)
+    _tx_semaphore_created_ptr                0x00004dec   Data           4  tx_initialize_high_level.o(.data)
+    _tx_semaphore_created_count              0x00004df0   Data           4  tx_initialize_high_level.o(.data)
+    _tx_queue_created_ptr                    0x00004df4   Data           4  tx_initialize_high_level.o(.data)
+    _tx_queue_created_count                  0x00004df8   Data           4  tx_initialize_high_level.o(.data)
+    _tx_event_flags_created_ptr              0x00004dfc   Data           4  tx_initialize_high_level.o(.data)
+    _tx_event_flags_created_count            0x00004e00   Data           4  tx_initialize_high_level.o(.data)
+    _tx_mutex_created_ptr                    0x00004e04   Data           4  tx_initialize_high_level.o(.data)
+    _tx_mutex_created_count                  0x00004e08   Data           4  tx_initialize_high_level.o(.data)
+    _tx_block_pool_created_ptr               0x00004e0c   Data           4  tx_initialize_high_level.o(.data)
+    _tx_block_pool_created_count             0x00004e10   Data           4  tx_initialize_high_level.o(.data)
+    _tx_byte_pool_created_ptr                0x00004e14   Data           4  tx_initialize_high_level.o(.data)
+    _tx_byte_pool_created_count              0x00004e18   Data           4  tx_initialize_high_level.o(.data)
+    _tx_initialize_unused_memory             0x00004e1c   Data           4  tx_initialize_high_level.o(.data)
+    _tx_version_id                           0x00004e20   Data          94  tx_thread_initialize.o(.data)
+    _tx_thread_system_state                  0x00004e80   Data           4  tx_thread_initialize.o(.data)
+    _tx_thread_system_stack_ptr              0x00004e84   Data           4  tx_thread_initialize.o(.data)
+    _tx_thread_current_ptr                   0x00004e88   Data           4  tx_thread_initialize.o(.data)
+    _tx_thread_execute_ptr                   0x00004e8c   Data           4  tx_thread_initialize.o(.data)
+    _tx_thread_created_ptr                   0x00004e90   Data           4  tx_thread_initialize.o(.data)
+    _tx_thread_created_count                 0x00004e94   Data           4  tx_thread_initialize.o(.data)
+    _tx_thread_priority_maps                 0x00004e98   Data           4  tx_thread_initialize.o(.data)
+    _tx_thread_preempted_maps                0x00004e9c   Data           4  tx_thread_initialize.o(.data)
+    _tx_thread_highest_priority              0x00004ea0   Data           4  tx_thread_initialize.o(.data)
+    _tx_thread_preempt_disable               0x00004ea4   Data           4  tx_thread_initialize.o(.data)
+    _tx_thread_mutex_release                 0x00004ea8   Data           4  tx_thread_initialize.o(.data)
+    _tx_build_options                        0x00004eac   Data           4  tx_thread_initialize.o(.data)
+    _tx_timer_system_clock                   0x00004eb0   Data           4  tx_timer_initialize.o(.data)
+    _tx_timer_expired_time_slice             0x00004eb4   Data           4  tx_timer_initialize.o(.data)
+    _tx_timer_list_start                     0x00004eb8   Data           4  tx_timer_initialize.o(.data)
+    _tx_timer_list_end                       0x00004ebc   Data           4  tx_timer_initialize.o(.data)
+    _tx_timer_current_ptr                    0x00004ec0   Data           4  tx_timer_initialize.o(.data)
+    _tx_timer_expired                        0x00004ec4   Data           4  tx_timer_initialize.o(.data)
+    _tx_timer_created_ptr                    0x00004ec8   Data           4  tx_timer_initialize.o(.data)
+    _tx_timer_created_count                  0x00004ecc   Data           4  tx_timer_initialize.o(.data)
+    _tx_timer_expired_timer_ptr              0x00004ed0   Data           4  tx_timer_initialize.o(.data)
+    _tx_timer_stack_start                    0x00004ed4   Data           4  tx_timer_initialize.o(.data)
+    _tx_timer_stack_size                     0x00004ed8   Data           4  tx_timer_initialize.o(.data)
+    _tx_timer_priority                       0x00004edc   Data           4  tx_timer_initialize.o(.data)
+    _tx_timer_time_slice                     0x00004ee0   Data           4  tx_timer_initialize.o(.data)
+    thread_0                                 0x00004ee4   Data         180  sample_threadx.o(.bss)
+    thread_1                                 0x00004f98   Data         180  sample_threadx.o(.bss)
+    thread_2                                 0x0000504c   Data         180  sample_threadx.o(.bss)
+    thread_3                                 0x00005100   Data         180  sample_threadx.o(.bss)
+    thread_4                                 0x000051b4   Data         180  sample_threadx.o(.bss)
+    thread_5                                 0x00005268   Data         180  sample_threadx.o(.bss)
+    thread_6                                 0x0000531c   Data         180  sample_threadx.o(.bss)
+    thread_7                                 0x000053d0   Data         180  sample_threadx.o(.bss)
+    queue_0                                  0x00005484   Data          60  sample_threadx.o(.bss)
+    semaphore_0                              0x000054c0   Data          32  sample_threadx.o(.bss)
+    mutex_0                                  0x000054e0   Data          52  sample_threadx.o(.bss)
+    event_flags_0                            0x00005514   Data          40  sample_threadx.o(.bss)
+    byte_pool_0                              0x0000553c   Data          52  sample_threadx.o(.bss)
+    block_pool_0                             0x00005570   Data          48  sample_threadx.o(.bss)
+    _tx_thread_priority_list                 0x000055a0   Data         128  tx_thread_initialize.o(.bss)
+    _tx_timer_list                           0x00005620   Data         128  tx_timer_initialize.o(.bss)
+    _tx_timer_thread                         0x000056a0   Data         180  tx_timer_initialize.o(.bss)
+    _tx_timer_thread_stack_area              0x00005754   Data        1024  tx_timer_initialize.o(.bss)
+    __libspace_start                         0x00005b54   Data          96  libspace.o(.bss)
+    Image$$ZI$$Limit                         0x00005bb4   Number         0  anon$$obj.o ABSOLUTE
+    __temporary_stack_top$libspace           0x00005bb4   Data           0  libspace.o(.bss)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000040
+
+  Load Region LR_1 (Base: 0x00000000, Size: 0x00004ee4, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region ER_RO (Base: 0x00000000, Size: 0x00004dc4, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000040   Code   RO            1    Init                tx_initialize_low_level.o
+    0x00000040   0x00000008   Code   RO          890  * !!!main             c_4.l(__main.o)
+    0x00000048   0x0000003c   Code   RO         1059    !!!scatter          c_4.l(__scatter.o)
+    0x00000084   0x0000002c   Code   RO         1061    !!handler_zi        c_4.l(__scatter_zi.o)
+    0x000000b0   0x00000004   Code   RO          929    .ARM.Collect$$libinit$$00000000  c_4.l(libinit.o)
+    0x000000b4   0x00000000   Code   RO          942    .ARM.Collect$$libinit$$00000002  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          944    .ARM.Collect$$libinit$$00000004  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          947    .ARM.Collect$$libinit$$0000000A  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          949    .ARM.Collect$$libinit$$0000000C  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          951    .ARM.Collect$$libinit$$0000000E  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          954    .ARM.Collect$$libinit$$00000011  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          956    .ARM.Collect$$libinit$$00000013  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          958    .ARM.Collect$$libinit$$00000015  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          960    .ARM.Collect$$libinit$$00000017  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          962    .ARM.Collect$$libinit$$00000019  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          964    .ARM.Collect$$libinit$$0000001B  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          966    .ARM.Collect$$libinit$$0000001D  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          968    .ARM.Collect$$libinit$$0000001F  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          970    .ARM.Collect$$libinit$$00000021  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          972    .ARM.Collect$$libinit$$00000023  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          974    .ARM.Collect$$libinit$$00000025  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          978    .ARM.Collect$$libinit$$0000002C  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          980    .ARM.Collect$$libinit$$0000002E  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          982    .ARM.Collect$$libinit$$00000030  c_4.l(libinit2.o)
+    0x000000b4   0x00000000   Code   RO          984    .ARM.Collect$$libinit$$00000032  c_4.l(libinit2.o)
+    0x000000b4   0x00000004   Code   RO          985    .ARM.Collect$$libinit$$00000033  c_4.l(libinit2.o)
+    0x000000b8   0x00000004   Code   RO         1016    .ARM.Collect$$libshutdown$$00000000  c_4.l(libshutdown.o)
+    0x000000bc   0x00000000   Code   RO         1042    .ARM.Collect$$libshutdown$$00000002  c_4.l(libshutdown2.o)
+    0x000000bc   0x00000000   Code   RO         1044    .ARM.Collect$$libshutdown$$00000004  c_4.l(libshutdown2.o)
+    0x000000bc   0x00000000   Code   RO         1047    .ARM.Collect$$libshutdown$$00000007  c_4.l(libshutdown2.o)
+    0x000000bc   0x00000000   Code   RO         1050    .ARM.Collect$$libshutdown$$0000000A  c_4.l(libshutdown2.o)
+    0x000000bc   0x00000000   Code   RO         1052    .ARM.Collect$$libshutdown$$0000000C  c_4.l(libshutdown2.o)
+    0x000000bc   0x00000000   Code   RO         1055    .ARM.Collect$$libshutdown$$0000000F  c_4.l(libshutdown2.o)
+    0x000000bc   0x00000004   Code   RO         1056    .ARM.Collect$$libshutdown$$00000010  c_4.l(libshutdown2.o)
+    0x000000c0   0x00000000   Code   RO          892    .ARM.Collect$$rtentry$$00000000  c_4.l(__rtentry.o)
+    0x000000c0   0x00000000   Code   RO          900    .ARM.Collect$$rtentry$$00000002  c_4.l(__rtentry2.o)
+    0x000000c0   0x00000008   Code   RO          912    .ARM.Collect$$rtentry$$00000004  c_4.l(__rtentry4.o)
+    0x000000c8   0x00000000   Code   RO          902    .ARM.Collect$$rtentry$$00000009  c_4.l(__rtentry2.o)
+    0x000000c8   0x00000004   Code   RO          903    .ARM.Collect$$rtentry$$0000000A  c_4.l(__rtentry2.o)
+    0x000000cc   0x00000000   Code   RO          905    .ARM.Collect$$rtentry$$0000000C  c_4.l(__rtentry2.o)
+    0x000000cc   0x00000008   Code   RO          906    .ARM.Collect$$rtentry$$0000000D  c_4.l(__rtentry2.o)
+    0x000000d4   0x00000004   Code   RO          933    .ARM.Collect$$rtexit$$00000000  c_4.l(rtexit.o)
+    0x000000d8   0x00000000   Code   RO          989    .ARM.Collect$$rtexit$$00000002  c_4.l(rtexit2.o)
+    0x000000d8   0x00000004   Code   RO          990    .ARM.Collect$$rtexit$$00000003  c_4.l(rtexit2.o)
+    0x000000dc   0x00000008   Code   RO          991    .ARM.Collect$$rtexit$$00000004  c_4.l(rtexit2.o)
+    0x000000e4   0x00000140   Code   RO            2    .text               tx_initialize_low_level.o
+    0x00000224   0x000005cc   Code   RO            9    .text               sample_threadx.o
+    0x000007f0   0x00000070   Code   RO           39    .text               tx.a(tx_thread_context_save.o)
+    0x00000860   0x00000118   Code   RO           42    .text               tx.a(tx_thread_context_restore.o)
+    0x00000978   0x000000f0   Code   RO           45    .text               tx.a(tx_timer_interrupt.o)
+    0x00000a68   0x0000004c   Code   RO           48    .text               tx.a(tx_initialize_high_level.o)
+    0x00000ab4   0x00000054   Code   RO           99    .text               tx.a(tx_initialize_kernel_enter.o)
+    0x00000b08   0x00000058   Code   RO          115    .text               tx.a(tx_thread_initialize.o)
+    0x00000b60   0x000000e4   Code   RO          144    .text               tx.a(tx_thread_sleep.o)
+    0x00000c44   0x00000074   Code   RO          156    .text               tx.a(txe_block_allocate.o)
+    0x00000cb8   0x00000164   Code   RO          172    .text               tx.a(txe_block_pool_create.o)
+    0x00000e1c   0x00000034   Code   RO          184    .text               tx.a(txe_block_release.o)
+    0x00000e50   0x000000b8   Code   RO          196    .text               tx.a(txe_byte_allocate.o)
+    0x00000f08   0x00000150   Code   RO          212    .text               tx.a(txe_byte_pool_create.o)
+    0x00001058   0x00000124   Code   RO          224    .text               tx.a(txe_event_flags_create.o)
+    0x0000117c   0x0000008c   Code   RO          240    .text               tx.a(txe_event_flags_get.o)
+    0x00001208   0x00000038   Code   RO          252    .text               tx.a(txe_event_flags_set.o)
+    0x00001240   0x00000140   Code   RO          264    .text               tx.a(txe_mutex_create.o)
+    0x00001380   0x00000088   Code   RO          280    .text               tx.a(txe_mutex_get.o)
+    0x00001408   0x00000050   Code   RO          292    .text               tx.a(txe_mutex_put.o)
+    0x00001458   0x00000168   Code   RO          304    .text               tx.a(txe_queue_create.o)
+    0x000015c0   0x00000074   Code   RO          320    .text               tx.a(txe_queue_receive.o)
+    0x00001634   0x00000074   Code   RO          332    .text               tx.a(txe_queue_send.o)
+    0x000016a8   0x00000134   Code   RO          344    .text               tx.a(txe_semaphore_create.o)
+    0x000017dc   0x00000068   Code   RO          360    .text               tx.a(txe_semaphore_get.o)
+    0x00001844   0x00000028   Code   RO          372    .text               tx.a(txe_semaphore_put.o)
+    0x0000186c   0x000001e4   Code   RO          384    .text               tx.a(txe_thread_create.o)
+    0x00001a50   0x0000006c   Code   RO          396    .text               tx.a(tx_thread_schedule.o)
+    0x00001abc   0x00000128   Code   RO          399    .text               tx.a(tx_block_allocate.o)
+    0x00001be4   0x00000114   Code   RO          411    .text               tx.a(tx_block_pool_create.o)
+    0x00001cf8   0x000000c4   Code   RO          423    .text               tx.a(tx_block_release.o)
+    0x00001dbc   0x00000190   Code   RO          435    .text               tx.a(tx_byte_allocate.o)
+    0x00001f4c   0x000000e4   Code   RO          447    .text               tx.a(tx_byte_pool_create.o)
+    0x00002030   0x00000094   Code   RO          459    .text               tx.a(tx_event_flags_create.o)
+    0x000020c4   0x00000180   Code   RO          471    .text               tx.a(tx_event_flags_get.o)
+    0x00002244   0x0000033c   Code   RO          483    .text               tx.a(tx_event_flags_set.o)
+    0x00002580   0x000000b0   Code   RO          495    .text               tx.a(tx_mutex_create.o)
+    0x00002630   0x000001cc   Code   RO          507    .text               tx.a(tx_mutex_get.o)
+    0x000027fc   0x00000378   Code   RO          519    .text               tx.a(tx_mutex_put.o)
+    0x00002b74   0x000000d0   Code   RO          531    .text               tx.a(tx_queue_create.o)
+    0x00002c44   0x000002f0   Code   RO          543    .text               tx.a(tx_queue_receive.o)
+    0x00002f34   0x0000023c   Code   RO          555    .text               tx.a(tx_queue_send.o)
+    0x00003170   0x00000098   Code   RO          567    .text               tx.a(tx_semaphore_create.o)
+    0x00003208   0x0000011c   Code   RO          579    .text               tx.a(tx_semaphore_get.o)
+    0x00003324   0x000000c8   Code   RO          591    .text               tx.a(tx_semaphore_put.o)
+    0x000033ec   0x000001dc   Code   RO          603    .text               tx.a(tx_thread_create.o)
+    0x000035c8   0x00000044   Code   RO          615    .text               tx.a(tx_thread_system_preempt_check.o)
+    0x0000360c   0x00000210   Code   RO          627    .text               tx.a(tx_thread_system_suspend.o)
+    0x0000381c   0x000000ac   Code   RO          639    .text               tx.a(tx_thread_time_slice.o)
+    0x000038c8   0x00000040   Code   RO          651    .text               tx.a(tx_timer_expiration_process.o)
+    0x00003908   0x000000d0   Code   RO          663    .text               tx.a(tx_timer_initialize.o)
+    0x000039d8   0x00000078   Code   RO          682    .text               tx.a(tx_thread_stack_build.o)
+    0x00003a50   0x0000004c   Code   RO          685    .text               tx.a(tx_thread_system_return.o)
+    0x00003a9c   0x000000f0   Code   RO          688    .text               tx.a(tx_block_pool_cleanup.o)
+    0x00003b8c   0x000000f0   Code   RO          700    .text               tx.a(tx_byte_pool_cleanup.o)
+    0x00003c7c   0x00000198   Code   RO          712    .text               tx.a(tx_byte_pool_search.o)
+    0x00003e14   0x00000100   Code   RO          724    .text               tx.a(tx_event_flags_cleanup.o)
+    0x00003f14   0x0000017c   Code   RO          736    .text               tx.a(tx_mutex_cleanup.o)
+    0x00004090   0x00000138   Code   RO          748    .text               tx.a(tx_mutex_prioritize.o)
+    0x000041c8   0x00000178   Code   RO          760    .text               tx.a(tx_mutex_priority_change.o)
+    0x00004340   0x000000fc   Code   RO          772    .text               tx.a(tx_queue_cleanup.o)
+    0x0000443c   0x000000f0   Code   RO          784    .text               tx.a(tx_semaphore_cleanup.o)
+    0x0000452c   0x000000d4   Code   RO          796    .text               tx.a(tx_thread_shell_entry.o)
+    0x00004600   0x000001a8   Code   RO          808    .text               tx.a(tx_thread_system_resume.o)
+    0x000047a8   0x00000068   Code   RO          820    .text               tx.a(tx_thread_timeout.o)
+    0x00004810   0x00000094   Code   RO          832    .text               tx.a(tx_timer_system_activate.o)
+    0x000048a4   0x000001e0   Code   RO          844    .text               tx.a(tx_timer_thread_entry.o)
+    0x00004a84   0x00000050   Code   RO          856    .text               tx.a(tx_timer_system_deactivate.o)
+    0x00004ad4   0x00000010   Code   RO          870    .text               c_4.l(aeabi_memset.o)
+    0x00004ae4   0x00000054   Code   RO          872    .text               c_4.l(rt_memclr_w.o)
+    0x00004b38   0x0000017c   Code   RO          874    .text               c_4.l(aeabi_sdiv.o)
+    0x00004cb4   0x00000040   Code   RO          897    .text               c_4.l(rt_memclr.o)
+    0x00004cf4   0x00000060   Code   RO          916    .text               c_4.l(sys_stackheap_outer.o)
+    0x00004d54   0x00000018   Code   RO          918    .text               c_4.l(exit.o)
+    0x00004d6c   0x0000000c   Code   RO          930    .text               c_4.l(libspace.o)
+    0x00004d78   0x00000014   Code   RO          986    .text               c_4.l(sys_exit.o)
+    0x00004d8c   0x00000004   Code   RO         1005    .text               c_4.l(use_no_semi.o)
+    0x00004d90   0x00000000   Code   RO         1007    .text               c_4.l(indicate_semi.o)
+    0x00004d90   0x00000024   Code   RO          875    .text_udiv          c_4.l(aeabi_sdiv.o)
+    0x00004db4   0x00000010   Data   RO         1057    Region$$Table       anon$$obj.o
+
+
+    Execution Region ER_RW (Base: 0x00004dc4, Size: 0x00000120, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00004dc4   0x00000028   Data   RW           11    .data               sample_threadx.o
+    0x00004dec   0x00000030   Data   RW           49    .data               tx.a(tx_initialize_high_level.o)
+    0x00004e1c   0x00000004   Data   RW           50    .data               tx.a(tx_initialize_high_level.o)
+    0x00004e20   0x0000005e   Data   RW          118    .data               tx.a(tx_thread_initialize.o)
+    0x00004e7e   0x00000002   PAD
+    0x00004e80   0x00000004   Data   RW          119    .data               tx.a(tx_thread_initialize.o)
+    0x00004e84   0x00000004   Data   RW          120    .data               tx.a(tx_thread_initialize.o)
+    0x00004e88   0x00000028   Data   RW          121    .data               tx.a(tx_thread_initialize.o)
+    0x00004eb0   0x00000034   Data   RW          665    .data               tx.a(tx_timer_initialize.o)
+
+
+    Execution Region ER_ZI (Base: 0x00004ee4, Size: 0x00000cd0, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00004ee4   0x000006bc   Zero   RW           10    .bss                sample_threadx.o
+    0x000055a0   0x00000080   Zero   RW          116    .bss                tx.a(tx_thread_initialize.o)
+    0x00005620   0x00000534   Zero   RW          664    .bss                tx.a(tx_timer_initialize.o)
+    0x00005b54   0x00000060   Zero   RW          931    .bss                c_4.l(libspace.o)
+
